@@ -15,7 +15,7 @@ public class UITest
 	@Test
 	public void startBrowser()
 	{
-		System.out.println("Parameter value is "+browserName);
+		System.out.println("Parameter value is ");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
